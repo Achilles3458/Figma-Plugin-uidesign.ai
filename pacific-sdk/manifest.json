@@ -1,0 +1,13 @@
+{
+  "name": "uidesign.ai SDK",
+  "id": "1285375374875869357",
+  "api": "1.0.0",
+
+  "ui": "dist/ui.html",
+  "main": "dist/code.js",
+
+  "capabilities": [],
+  "enableProposedApi": false,
+  "editorType": ["figma"],
+  "permissions": ["currentuser"]
+}

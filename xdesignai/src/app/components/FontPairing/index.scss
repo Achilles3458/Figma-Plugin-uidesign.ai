@@ -1,0 +1,148 @@
+.color-palette-container {
+  .style-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px;
+
+    .list-title {
+      color: darkgray;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+    }
+    .style-item {
+      display: flex;
+      justify-content: space-between;
+      background-color: #111b24;
+      border-radius: 7px;
+      padding: 10px 12px;
+    }
+
+    .style-item-text {
+      color: white;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+    }
+
+    .edit-button {
+      cursor: pointer;
+      color: darkgrey;
+      width: 24px;
+      height: 24px;
+      opacity: 0.6;
+    }
+  }
+
+  .dropdown {
+    width: 100%;
+    background-color: #0a212e;
+    border-radius: 7px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+
+    &.dropdown-content--is-disabled {
+      background-color: darkgray;
+    }
+
+    .dropdown-content__control {
+      border: 0;
+      box-shadow: none;
+      background-color: transparent;
+
+      .dropdown-content__single-value {
+        color: white;
+      }
+    }
+
+    .dropdown-content__menu {
+      background-color: #1f3546;
+      color: white;
+
+      .dropdown-content__option--is-focused {
+        background-color: #2b6088;
+        color: white;
+      }
+
+      .dropdown-content__option--is-selected {
+        background-color: #3782bb;
+        color: white;
+      }
+    }
+  }
+
+  .item-textarea {
+    color: rgba(255, 255, 255, 0.83);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.21);
+    background: rgba(255, 255, 255, 0.12);
+  }
+
+  .color-picker-list {
+    display: flex; /* Use flexbox to create a horizontal layout */
+    gap: 10px; /* Add spacing between color picker components */
+  }
+
+  .color-picker-list button[type='color'] {
+    width: 30px; /* Set the width of each color picker component */
+    height: 30px; /* Set the height of each color picker component */
+    // border-color: #FFF;
+    display: inline-block;
+    padding: 0px;
+    border: 1px solid #fff; /* Remove the default border */
+    border-radius: 50%; /* Create a circular shape for the color picker */
+    outline: none; /* Remove the outline when focused */
+  }
+
+  .color-picker-list input[type='color'] {
+    width: 30px; /* Set the width of each color picker component */
+    height: 30px; /* Set the height of each color picker component */
+    border-color: #fff;
+    display: inline-block;
+    padding: 0px;
+    border: 1px solid; /* Remove the default border */
+    border-radius: 50%; /* Create a circular shape for the color picker */
+    outline: none; /* Remove the outline when focused */
+  }
+  .plus-button {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    border: 1px solid #fff;
+    font-family: Inter;
+    font-size: 22px;
+    background-color: #132632;
+    border-radius: 50%;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 0px;
+    line-height: 120%; /* 26.4px */
+    letter-spacing: 22px;
+    stroke-width: 1px;
+    stroke: #fff;
+    filter: drop-shadow(0px 4px 34px rgba(233, 233, 233, 0.25));
+    flex-shrink: 0;
+  }
+  .color-picker-container {
+    border-radius: 50%;
+    background-color: #ffffff; /* Set your desired background color */
+    border: 2px solid #ffffff; /* Set your desired border color */
+    width: 30px; /* Set the width of the color picker container */
+    height: 30px; /* Set the height of the color picker container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px; /* Add margin between color pickers */
+  }
+}

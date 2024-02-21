@@ -1,0 +1,39 @@
+.settings-container {
+  .style-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px;
+
+    .list-title {
+      color: darkgray;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+    }
+    .style-item {
+      display: flex;
+      justify-content: space-between;
+      background-color: #111b24;
+      border-radius: 7px;
+      padding: 10px 12px;
+    }
+
+    .style-item-text {
+      color: white;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+    }
+
+    .edit-button {
+      cursor: pointer;
+      color: darkgrey;
+      width: 24px;
+      height: 24px;
+      opacity: 0.6;
+    }
+  }
+}

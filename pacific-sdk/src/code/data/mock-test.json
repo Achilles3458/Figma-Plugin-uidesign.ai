@@ -1,0 +1,191 @@
+{
+  "name": "1706819468281",
+  "apps": [
+    {
+      "meta": {},
+      "name": "Star",
+      "description": "Polygon",
+      "screens": [
+        {
+          "meta": {
+            "theme": {
+              "colors": {
+                "#FFFFFF": {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                  }
+                },
+                "#D9D9D9": {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.8509804010391235,
+                    "g": 0.8509804010391235,
+                    "b": 0.8509804010391235,
+                    "a": 1
+                  }
+                }
+              },
+              "images": {},
+              "icons": {},
+              "characters": {},
+              "gradients": {}
+            }
+          },
+          "name": "Star",
+          "description": "TODO",
+          "root": {
+            "type": "CONTAINER",
+            "id": "822:553",
+            "name": "Star",
+            "x": 148,
+            "y": 184,
+            "width": 836,
+            "height": 776,
+            "layoutMode": "NONE",
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisSizingMode": "FIXED",
+            "fill": {
+              "type": "VARIABLE",
+              "id": "#FFFFFF",
+              "fallback": {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              }
+            },
+            "reaction": [],
+            "children": [
+              {
+                "type": "STAR",
+                "id": "822:543",
+                "name": "Star",
+                "x": 203.69212341308594,
+                "y": 160,
+                "width": 479.7506408691406,
+                "height": 476.5589904785156,
+                "rotation": -0.4124288305691479,
+                "cornerRadius": 0.8596040606498718,
+                "count": 13,
+                "ratio": 0.3499999940395355,
+                "cornerSmoothing": 0,
+                "constrainProportions": true,
+                "fill": {
+                  "type": "VARIABLE",
+                  "id": "#D9D9D9",
+                  "fallback": {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.8509804010391235,
+                      "g": 0.8509804010391235,
+                      "b": 0.8509804010391235,
+                      "a": 1
+                    }
+                  }
+                },
+                "strokeWeight": 1,
+                "reaction": []
+              }
+            ]
+          }
+        },
+        {
+          "meta": {
+            "theme": {
+              "colors": {
+                "#FFFFFF": {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                  }
+                },
+                "#D9D9D9": {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.8509804010391235,
+                    "g": 0.8509804010391235,
+                    "b": 0.8509804010391235,
+                    "a": 1
+                  }
+                }
+              },
+              "images": {},
+              "icons": {},
+              "characters": {},
+              "gradients": {}
+            }
+          },
+          "name": "Polygon",
+          "description": "TODO",
+          "root": {
+            "type": "CONTAINER",
+            "id": "822:554",
+            "name": "Polygon",
+            "x": 1260,
+            "y": 200,
+            "width": 840,
+            "height": 800,
+            "layoutMode": "NONE",
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisSizingMode": "FIXED",
+            "fill": {
+              "type": "VARIABLE",
+              "id": "#FFFFFF",
+              "fallback": {
+                "type": "SOLID",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1,
+                  "a": 1
+                }
+              }
+            },
+            "reaction": [],
+            "children": [
+              {
+                "type": "POLYGON",
+                "id": "822:551",
+                "name": "Polygon 1",
+                "x": 133,
+                "y": 216.03271484375,
+                "width": 369.71124267578125,
+                "height": 513.3763427734375,
+                "rotation": 20.00000065939313,
+                "cornerRadius": 6,
+                "count": 8,
+                "cornerSmoothing": 0,
+                "constrainProportions": false,
+                "fill": {
+                  "type": "VARIABLE",
+                  "id": "#D9D9D9",
+                  "fallback": {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.8509804010391235,
+                      "g": 0.8509804010391235,
+                      "b": 0.8509804010391235,
+                      "a": 1
+                    }
+                  }
+                },
+                "strokeWeight": 1,
+                "reaction": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

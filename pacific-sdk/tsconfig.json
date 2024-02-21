@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["DOM", "ES2017"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "strict": true,
+    "target": "ES2017",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@figma"
+    ],
+
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true
+  }
+}

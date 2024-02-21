@@ -1,0 +1,78 @@
+.style-item-container {
+  .style-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 5px;
+
+    .list-title {
+      color: darkgray;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+    }
+    .style-item {
+      display: flex;
+      justify-content: space-between;
+      background-color: #111b24;
+      border-radius: 7px;
+      padding: 10px 12px;
+    }
+
+    .style-item-text {
+      color: white;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+    }
+
+    .edit-button {
+      cursor: pointer;
+      color: darkgrey;
+      width: 24px;
+      height: 24px;
+      opacity: 0.6;
+    }
+  }
+
+  .dropdown {
+    width: 100%;
+    background-color: #0a212e;
+    border-radius: 7px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+
+    &.dropdown-content--is-disabled {
+      background-color: darkgray;
+    }
+
+    .dropdown-content__control {
+      border: 0;
+      box-shadow: none;
+      background-color: transparent;
+
+      .dropdown-content__single-value {
+        color: white;
+      }
+    }
+
+    .dropdown-content__menu {
+      background-color: #1f3546;
+      color: white;
+
+      .dropdown-content__option--is-focused {
+        background-color: #2b6088;
+        color: white;
+      }
+
+      .dropdown-content__option--is-selected {
+        background-color: #3782bb;
+        color: white;
+      }
+    }
+  }
+}

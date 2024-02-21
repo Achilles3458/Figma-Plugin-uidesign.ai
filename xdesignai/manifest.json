@@ -1,0 +1,15 @@
+{
+  "name": "UIDesign.AI",
+  "id": "1247654636375551810",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma"],
+  "networkAccess": {
+    "allowedDomains": [
+      "https://app.uidesign.ai",
+      "https://api.uidesign.ai",
+      "https://uichain-figma-assets.s3.amazonaws.com"
+    ]
+  }
+}

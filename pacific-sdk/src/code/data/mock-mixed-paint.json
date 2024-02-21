@@ -1,0 +1,269 @@
+{
+  "name": "1706070789135",
+  "apps": [
+    {
+      "meta": {},
+      "name": "Beauty Page",
+      "description": "Beauty Page",
+      "screens": [
+        {
+          "meta": {
+            "theme": {
+              "colors": {
+                "#E6F4AD": {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.9013229608535767,
+                    "g": 0.956591784954071,
+                    "b": 0.6802482604980469,
+                    "a": 1
+                  }
+                },
+                "#00000066": {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0,
+                    "g": 0,
+                    "b": 0,
+                    "a": 0.4000000059604645
+                  }
+                },
+                "#FFFFFF": {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                  }
+                }
+              },
+              "images": {
+                "81cd970ee493a3e21b0709af524d541b334d58ac": {
+                  "type": "PREPROCESSED",
+                  "value": {
+                    "type": "IMAGE",
+                    "scaleMode": "FILL",
+                    "imageHash": "81cd970ee493a3e21b0709af524d541b334d58ac"
+                  }
+                }
+              },
+              "icons": {},
+              "characters": {
+                "Travel  ": "Travel  ",
+                "Start for free, upgrade when you love it": "Start for free, upgrade when you love it"
+              },
+              "gradients": {}
+            }
+          },
+          "name": "Frame 30271",
+          "description": "TODO",
+          "root": {
+            "type": "CONTAINER",
+            "id": "147:2550",
+            "name": "Frame 30271",
+            "x": 0,
+            "y": 0,
+            "width": 1532,
+            "height": 1140,
+            "fill": {
+              "type": "VARIABLE",
+              "id": "#E6F4AD",
+              "fallback": {
+                "type": "SOLID",
+                "color": {
+                  "r": 0.9013229608535767,
+                  "g": 0.956591784954071,
+                  "b": 0.6802482604980469,
+                  "a": 1
+                }
+              }
+            },
+            "reaction": [],
+            "children": [
+              {
+                "type": "CONTAINER",
+                "id": "147:2551",
+                "name": "Frame 30230",
+                "x": 0,
+                "y": 0,
+                "width": 1532,
+                "height": 1140,
+                "fill": {
+                  "type": "MIXED_PAINT",
+                  "values": [
+                    {
+                      "type": "VARIABLE",
+                      "id": "81cd970ee493a3e21b0709af524d541b334d58ac",
+                      "fallback": {
+                        "type": "IMAGE",
+                        "scaleMode": "FILL",
+                        "imageHash": "81cd970ee493a3e21b0709af524d541b334d58ac"
+                      }
+                    },
+                    {
+                      "type": "VARIABLE",
+                      "id": "#00000066",
+                      "fallback": {
+                        "type": "SOLID",
+                        "color": {
+                          "r": 0,
+                          "g": 0,
+                          "b": 0,
+                          "a": 0.4000000059604645
+                        }
+                      }
+                    }
+                  ]
+                },
+                "reaction": [],
+                "children": [
+                  {
+                    "type": "CONTAINER",
+                    "id": "147:2552",
+                    "name": "Frame 30208",
+                    "x": 0,
+                    "y": 0,
+                    "width": 1532,
+                    "height": 500,
+                    "reaction": [],
+                    "children": [
+                      {
+                        "type": "CONTAINER",
+                        "id": "147:2553",
+                        "name": "Frame 30202",
+                        "x": 83.5,
+                        "y": 0,
+                        "width": 1365,
+                        "height": 500,
+                        "reaction": [],
+                        "children": [
+                          {
+                            "type": "CONTAINER",
+                            "id": "147:2554",
+                            "name": "Frame 30181",
+                            "x": 0,
+                            "y": 0,
+                            "width": 1365,
+                            "height": 500,
+                            "reaction": [],
+                            "children": [
+                              {
+                                "type": "CONTAINER",
+                                "id": "147:2555",
+                                "name": "Frame 30205",
+                                "x": 356,
+                                "y": 56.5,
+                                "width": 653,
+                                "height": 387,
+                                "reaction": [],
+                                "children": [
+                                  {
+                                    "type": "TEXT",
+                                    "id": "147:2556",
+                                    "name": "Travel",
+                                    "x": 0,
+                                    "y": 0,
+                                    "width": 653,
+                                    "height": 335,
+                                    "fill": {
+                                      "type": "VARIABLE",
+                                      "id": "#FFFFFF",
+                                      "fallback": {
+                                        "type": "SOLID",
+                                        "color": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        }
+                                      }
+                                    },
+                                    "fontName": {
+                                      "family": "DM Serif Display",
+                                      "style": "Regular"
+                                    },
+                                    "fontSize": 244.46580505371094,
+                                    "fontWeight": 400,
+                                    "letterSpacing": {
+                                      "unit": "PERCENT",
+                                      "value": -2
+                                    },
+                                    "lineHeight": {
+                                      "unit": "AUTO"
+                                    },
+                                    "textAlignHorizontal": "LEFT",
+                                    "textAlignVertical": "TOP",
+                                    "textAutoResize": "WIDTH_AND_HEIGHT",
+                                    "textCase": "ORIGINAL",
+                                    "reaction": [],
+                                    "characters": {
+                                      "type": "VARIABLE",
+                                      "id": "Travel  ",
+                                      "fallback": "Travel  "
+                                    },
+                                    "truncation": "DISABLED"
+                                  },
+                                  {
+                                    "type": "TEXT",
+                                    "id": "147:2557",
+                                    "name": "Start for free, upgrade when you love it",
+                                    "x": 15.5,
+                                    "y": 345,
+                                    "width": 622,
+                                    "height": 42,
+                                    "fill": {
+                                      "type": "VARIABLE",
+                                      "id": "#FFFFFF",
+                                      "fallback": {
+                                        "type": "SOLID",
+                                        "color": {
+                                          "r": 1,
+                                          "g": 1,
+                                          "b": 1,
+                                          "a": 1
+                                        }
+                                      }
+                                    },
+                                    "fontName": {
+                                      "family": "Inter",
+                                      "style": "Regular"
+                                    },
+                                    "fontSize": 35,
+                                    "fontWeight": 400,
+                                    "letterSpacing": {
+                                      "unit": "PERCENT",
+                                      "value": -2
+                                    },
+                                    "lineHeight": {
+                                      "unit": "AUTO"
+                                    },
+                                    "textAlignHorizontal": "CENTER",
+                                    "textAlignVertical": "TOP",
+                                    "textAutoResize": "WIDTH_AND_HEIGHT",
+                                    "textCase": "ORIGINAL",
+                                    "reaction": [],
+                                    "characters": {
+                                      "type": "VARIABLE",
+                                      "id": "Start for free, upgrade when you love it",
+                                      "fallback": "Start for free, upgrade when you love it"
+                                    },
+                                    "truncation": "DISABLED"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
